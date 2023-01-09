@@ -1,0 +1,85 @@
+/* DO NOT MODIFY THIS FILE TO COMPLETE THE CHALLENGE */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 1rem;
+  background-color: #49c1d6;
+  min-width: 600px;
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Indie Flower", cursive;
+}
+
+code {
+  font-family: monospace;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.instructions {
+  align-self: start;
+  padding: 5rem;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+}
+
+.instructions ul li {
+  margin-top: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 1rem;
+}
+
+.field {
+  background-color: #48a56a;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 1.5rem;
+  outline: 5px rgb(66, 47, 11) dashed;
+}
+
+.sheep {
+  background-image: url(./assets/sheep.svg);
+  min-height: 100px;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.red {
+  background-color: rgba(121, 23, 23, 0.5);
+}
+
+.blue {
+  background-color: rgba(23, 102, 121, 0.5);
+}
+
+.purple {
+  background-color: rgba(121, 23, 105, 0.5);
+}
+
+/* DO NOT MODIFY THIS FILE TO COMPLETE THE CHALLENGE */

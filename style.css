@@ -1,6 +1,9 @@
+.field {
+  display: flex;
+}
+
 /*Level 0*/
 .level-zero .field {
-  display: flex;
   flex-direction: row;
 }
 
@@ -11,14 +14,12 @@
 /* Level 1 */
 
 .level-one .field {
-  display: flex;
   align-items: flex-end;
   justify-content: flex-start;
 }
 /* Level 2*/
 
 .level-two .field {
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -28,7 +29,6 @@
 /* Level 3*/
 
 .level-three .field {
-  display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
 }
@@ -36,7 +36,6 @@
 /* Level 4 */
 
 .level-four .field {
-  display: flex;
   justify-content: center;
   flex-direction: row;
 
@@ -57,7 +56,6 @@
 /* Level 5 */
 
 .level-five .field {
-  display: flex;
 }
 
 .level-five .red {
@@ -71,7 +69,6 @@
 /* Level 6 */
 
 .level-six .field {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column-reverse;
@@ -92,7 +89,6 @@
 /* Level 7 */
 
 .level-seven .field {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -100,7 +96,6 @@
 /* Level 8 */
 
 .level-eight .field {
-  display: flex;
   flex-wrap: wrap-reverse;
 }
 
